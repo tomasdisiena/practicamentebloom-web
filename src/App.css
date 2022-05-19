@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #facf39;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.fslightbox-toolbar-button:first-child,
+.fslightbox-slide-number-container {
+  display: none !important;
+}
+
+.myMasonryGridColumn {
+  padding-left: 0.15rem;
+  background-clip: padding-box;
+}
